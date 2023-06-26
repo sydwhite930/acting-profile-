@@ -1,0 +1,33 @@
+.hero-section {
+  position: relative;
+  height: 90%;
+  background-color: #0d1f31;
+  color: white;
+}
+
+.hero-container {
+  position: absolute;
+  display: flex;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 10rem;
+}
+
+.hero-title {
+  letter-spacing: 4px;
+  font-size: 8rem;
+  text-align: center;
+}
+
+.hero-title h1 {
+  margin-bottom: 1rem;
+}
+
+.hero-image {
+  height: 50rem;
+  width: auto;
+}
